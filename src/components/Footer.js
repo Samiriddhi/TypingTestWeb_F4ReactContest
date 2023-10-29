@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
-import { FaInstagram } from "react-icons/fa";
+
 
 const Footer = () => {
   const [selectedcolor, setSelectedColor] = useState("black");
@@ -16,7 +16,7 @@ const Footer = () => {
         <FaGithub size={30} color="white" />
         <FaLinkedin size={30} color="white" />
         <GrMail size={30} color="white" />
-        <FaInstagram size={30} color="white" />
+        
       </div>
 
       <div className="colorchange">
